@@ -409,3 +409,36 @@ padding:30px;
 }
 
 }
+/*=====================
+PAGE HERO
+=====================*/
+
+.page-hero{
+
+background:#162d8f;
+
+color:white;
+
+padding:170px 0 90px;
+
+text-align:center;
+
+}
+
+.page-hero h1{
+
+font-family:'Playfair Display',serif;
+
+font-size:55px;
+
+margin-bottom:20px;
+
+}
+
+.page-hero p{
+
+font-size:22px;
+
+color:#d4af37;
+
+}
