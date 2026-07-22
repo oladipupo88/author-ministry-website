@@ -1034,3 +1034,196 @@ text-transform:uppercase;
 margin-bottom:10px;
 
 }
+/* ===================================
+   TESTIMONIALS
+=================================== */
+
+.testimonials{
+    background:#f8f9fc;
+    padding:100px 0;
+    text-align:center;
+}
+
+.testimonials h5{
+    color:#d4af37;
+    letter-spacing:2px;
+    margin-bottom:10px;
+    text-transform:uppercase;
+}
+
+.testimonials h2{
+    color:#0d3b66;
+    font-size:2.6rem;
+    margin-bottom:60px;
+}
+
+.testimonial-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.testimonial-card{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:18px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-10px);
+}
+
+.testimonial-card p{
+    color:#666;
+    font-style:italic;
+    line-height:1.9;
+    margin-bottom:25px;
+}
+
+.testimonial-card h4{
+    color:#0d3b66;
+}
+
+/* ===================================
+   SOCIAL MEDIA
+=================================== */
+
+.social-section{
+    background:#0d3b66;
+    color:#fff;
+    text-align:center;
+    padding:90px 20px;
+}
+
+.social-section h2{
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.social-section p{
+    max-width:700px;
+    margin:0 auto 35px;
+}
+
+.social-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.social-buttons a{
+    background:#d4af37;
+    color:#fff;
+    padding:14px 28px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.social-buttons a:hover{
+    background:#fff;
+    color:#0d3b66;
+}
+
+/* ===================================
+   AMAZON SECTION
+=================================== */
+
+.amazon-section{
+    background:#ffffff;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.amazon-section h2{
+    color:#0d3b66;
+    margin-bottom:20px;
+}
+
+.amazon-section p{
+    max-width:800px;
+    margin:0 auto 40px;
+    color:#666;
+    line-height:1.9;
+}
+
+/* ===================================
+   NEW FOOTER
+=================================== */
+
+footer{
+    background:#081f3d;
+    color:#ddd;
+    padding:70px 0 30px;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:50px;
+}
+
+.footer-grid h2,
+.footer-grid h3{
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.footer-grid p{
+    color:#ccc;
+    line-height:1.8;
+}
+
+.footer-grid ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer-grid li{
+    margin-bottom:12px;
+}
+
+.footer-grid a{
+    color:#ccc;
+    transition:.3s;
+}
+
+.footer-grid a:hover{
+    color:#d4af37;
+}
+
+footer hr{
+    margin:50px 0 25px;
+    border:none;
+    border-top:1px solid rgba(255,255,255,.15);
+}
+
+.copyright{
+    text-align:center;
+    color:#aaa;
+}
+
+/* ===================================
+   RESPONSIVE FOOTER
+=================================== */
+
+@media(max-width:768px){
+
+.footer-grid{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.social-buttons{
+flex-direction:column;
+align-items:center;
+}
+
+.social-buttons a{
+width:220px;
+}
+
+}
